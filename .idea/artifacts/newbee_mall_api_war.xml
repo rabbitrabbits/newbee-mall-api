@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="newbee-mall-api:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>newbee-mall-api</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mall.war">
+      <element id="artifact" artifact-name="newbee-mall-api:war exploded" />
+    </root>
+  </artifact>
+</component>

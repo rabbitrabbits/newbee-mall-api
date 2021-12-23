@@ -1,0 +1,467 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1639562132810,400,商品充库存,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-setUp Thread Group 1-1,,true,,9,0,1,1,null,0,2,377
+1639562132812,400,所有商品充库存,200,OK,localhost:1098-setUp Thread Group 1-1,text,true,,9,0,1,1,null,399,0,377
+1639562132914,418,商品充库存,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1099-setUp Thread Group 1-1,,true,,9,0,1,1,null,0,0,401
+1639562132914,418,所有商品充库存,200,OK,localhost:1099-setUp Thread Group 1-1,text,true,,9,0,1,1,null,418,0,401
+1639562133615,365,未登录刷首页,200,"Number of samples in transaction : 3, number of failing samples : 0",localhost:1099-Thread Group 1-2,,true,,14193,612,3,3,null,0,4,1
+1639562133617,139,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,139,0,1
+1639562133757,114,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,3,3,http://localhost:28019/api/v1/index-infos,114,0,0
+1639562133872,112,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,3,3,http://localhost:28019/api/v1/index-infos,112,0,0
+1639562133818,460,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1099-Thread Group 1-3,,true,,15,0,5,5,null,0,0,443
+1639562133818,460,随机获取商品id,200,OK,localhost:1099-Thread Group 1-3,text,true,,15,0,5,5,null,460,0,443
+1639562134278,177,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1099-Thread Group 1-3,,true,,654,600,6,6,null,0,5,1
+1639562134282,72,1. Register（注册）,200,,localhost:1099-Thread Group 1-3,text,true,,312,288,5,5,http://localhost:28019/api/v1/user/register,72,0,1
+1639562134355,105,2. Login（登录）,200,,localhost:1099-Thread Group 1-3,text,true,,342,312,6,6,http://localhost:28019/api/v1/user/login,105,0,0
+1639562134018,525,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1099-Thread Group 1-4,,true,,15,0,6,6,null,0,1,507
+1639562134019,525,随机获取商品id,200,OK,localhost:1099-Thread Group 1-4,text,true,,15,0,6,6,null,524,0,507
+1639562134544,180,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1099-Thread Group 1-4,,true,,654,600,7,7,null,0,7,0
+1639562134550,77,1. Register（注册）,200,,localhost:1099-Thread Group 1-4,text,true,,312,288,7,7,http://localhost:28019/api/v1/user/register,77,0,0
+1639562134628,103,2. Login（登录）,200,,localhost:1099-Thread Group 1-4,text,true,,342,312,7,7,http://localhost:28019/api/v1/user/login,103,0,0
+1639562134419,434,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1099-Thread Group 1-6,,true,,15,0,8,8,null,0,0,418
+1639562134419,434,随机获取商品id,200,OK,localhost:1099-Thread Group 1-6,text,true,,15,0,8,8,null,434,0,418
+1639562134738,255,仅浏览商品详情,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1099-Thread Group 1-4,,true,,5409,457,8,8,null,0,2,0
+1639562134739,194,4.5 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,194,0,0
+1639562134933,61,5.5 Good detail（查看商品详情）,200,,localhost:1099-Thread Group 1-4,text,true,,678,232,8,8,http://localhost:28019/api/v1/goods/detail/10362,61,0,0
+1639562134853,198,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1099-Thread Group 1-6,,true,,654,600,9,9,null,0,7,1
+1639562134860,98,1. Register（注册）,200,,localhost:1099-Thread Group 1-6,text,true,,312,288,8,8,http://localhost:28019/api/v1/user/register,98,0,1
+1639562134958,100,2. Login（登录）,200,,localhost:1099-Thread Group 1-6,text,true,,342,312,9,9,http://localhost:28019/api/v1/user/login,100,0,0
+1639562134616,463,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1099-Thread Group 1-7,,true,,15,0,9,9,null,0,0,446
+1639562134616,463,随机获取商品id,200,OK,localhost:1099-Thread Group 1-7,text,true,,15,0,9,9,null,463,0,446
+1639562134995,108,Logout（退出登录）,200,,localhost:1099-Thread Group 1-4,text,true,,312,245,9,9,http://localhost:28019/api/v1/user/logout,108,0,0
+1639562135080,176,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1099-Thread Group 1-7,,true,,654,600,10,10,null,0,6,1
+1639562135086,72,1. Register（注册）,200,,localhost:1099-Thread Group 1-7,text,true,,312,288,9,9,http://localhost:28019/api/v1/user/register,72,0,1
+1639562135158,104,2. Login（登录）,200,,localhost:1099-Thread Group 1-7,text,true,,342,312,10,10,http://localhost:28019/api/v1/user/login,104,0,0
+1639562135064,306,仅浏览商品详情,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1099-Thread Group 1-6,,true,,5455,457,10,10,null,0,1,0
+1639562135064,202,4.5 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,202,0,0
+1639562135267,104,5.5 Good detail（查看商品详情）,200,,localhost:1099-Thread Group 1-6,text,true,,724,232,10,10,http://localhost:28019/api/v1/goods/detail/10864,104,0,0
+1639562135371,132,Logout（退出登录）,200,,localhost:1099-Thread Group 1-6,text,true,,312,245,10,10,http://localhost:28019/api/v1/user/logout,132,0,0
+1639562134463,1567,购买流程,200,"Number of samples in transaction : 10, number of failing samples : 0",localhost:1099-Thread Group 1-3,,true,,8571,2699,10,10,null,0,4,0
+1639562134463,144,3. Add Address（添加默认地址）,200,,localhost:1099-Thread Group 1-3,text,true,,312,418,7,7,http://localhost:28019/api/v1/address,143,0,0
+1639562134607,211,4. Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,211,0,0
+1639562134818,77,5. Good detail（查看商品详情）,200,,localhost:1099-Thread Group 1-3,text,true,,672,232,8,8,http://localhost:28019/api/v1/goods/detail/10867,77,0,0
+1639562134895,86,6. View shop cart（浏览购物车）,200,,localhost:1099-Thread Group 1-3,text,true,,310,249,8,8,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,86,0,0
+1639562134981,190,7. Add shop cart（添加购物车）,200,,localhost:1099-Thread Group 1-3,text,true,,312,288,9,9,http://localhost:28019/api/v1/shop-cart,190,0,0
+1639562135171,122,8. View shop cart - Again（再次浏览购物车）,200,,localhost:1099-Thread Group 1-3,text,true,,507,249,10,10,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,122,0,0
+1639562135294,107,9. Settle（结账）,200,,localhost:1099-Thread Group 1-3,text,true,,507,246,10,10,http://localhost:28019/api/v1/shop-cart/settle?cartItemIds=442,107,0,0
+1639562135401,113,10. Default Address（默认地址）,200,,localhost:1099-Thread Group 1-3,text,true,,581,229,10,10,http://localhost:28019/api/v1/address/default,113,0,0
+1639562135515,437,11. Save Order（生成订单）,200,,localhost:1099-Thread Group 1-3,text,true,,327,303,10,10,http://localhost:28019/api/v1/saveOrder,437,0,0
+1639562135953,80,12. Payment - Wechat（微信支付）,200,,localhost:1099-Thread Group 1-3,text,true,,312,260,10,10,http://localhost:28019/api/v1/paySuccess?orderNo=16395621358014617&payType=2,80,0,0
+1639562136037,99,Logout（退出登录）,200,,localhost:1099-Thread Group 1-3,text,true,,312,245,10,10,http://localhost:28019/api/v1/user/logout,99,0,0
+1639562135213,1051,未登录刷首页,200,"Number of samples in transaction : 5, number of failing samples : 0",localhost:1099-Thread Group 1-10,,true,,23655,1020,10,10,null,0,3,1
+1639562135214,295,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,295,0,1
+1639562135510,227,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,227,0,0
+1639562135737,201,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,201,0,0
+1639562135939,172,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,172,0,0
+1639562136111,156,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,156,0,0
+1639562135269,1439,购买流程,200,"Number of samples in transaction : 10, number of failing samples : 0",localhost:1099-Thread Group 1-7,,true,,8588,2699,10,10,null,0,3,0
+1639562135269,219,3. Add Address（添加默认地址）,200,,localhost:1099-Thread Group 1-7,text,true,,312,418,10,10,http://localhost:28019/api/v1/address,219,0,0
+1639562135489,230,4. Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-7,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,230,0,0
+1639562135719,80,5. Good detail（查看商品详情）,200,,localhost:1099-Thread Group 1-7,text,true,,733,232,10,10,http://localhost:28019/api/v1/goods/detail/10779,80,0,0
+1639562135799,85,6. View shop cart（浏览购物车）,200,,localhost:1099-Thread Group 1-7,text,true,,310,249,10,10,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,85,0,0
+1639562135884,180,7. Add shop cart（添加购物车）,200,,localhost:1099-Thread Group 1-7,text,true,,312,288,10,10,http://localhost:28019/api/v1/shop-cart,180,0,0
+1639562136064,96,8. View shop cart - Again（再次浏览购物车）,200,,localhost:1099-Thread Group 1-7,text,true,,485,249,10,10,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,96,0,0
+1639562136161,100,9. Settle（结账）,200,,localhost:1099-Thread Group 1-7,text,true,,485,246,10,10,http://localhost:28019/api/v1/shop-cart/settle?cartItemIds=444,100,0,0
+1639562136261,61,10. Default Address（默认地址）,200,,localhost:1099-Thread Group 1-7,text,true,,581,229,10,10,http://localhost:28019/api/v1/address/default,60,0,0
+1639562136322,318,11. Save Order（生成订单）,200,,localhost:1099-Thread Group 1-7,text,true,,327,303,10,10,http://localhost:28019/api/v1/saveOrder,318,0,0
+1639562136641,70,12. Payment - Wechat（微信支付）,200,,localhost:1099-Thread Group 1-7,text,true,,312,260,10,10,http://localhost:28019/api/v1/paySuccess?orderNo=16395621365166934&payType=2,70,0,0
+1639562136715,71,Logout（退出登录）,200,,localhost:1099-Thread Group 1-7,text,true,,312,245,10,10,http://localhost:28019/api/v1/user/logout,71,0,0
+1639562133989,2837,未登录刷首页,200,"Number of samples in transaction : 15, number of failing samples : 0",localhost:1099-Thread Group 1-2,,true,,70965,3060,10,10,null,0,8,1
+1639562133989,173,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,173,0,1
+1639562134163,159,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,159,0,0
+1639562134322,189,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,189,0,0
+1639562134511,187,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,187,0,0
+1639562134698,183,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,183,0,0
+1639562134882,221,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,221,0,0
+1639562135104,247,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,247,0,0
+1639562135352,253,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,253,0,0
+1639562135606,225,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,225,0,0
+1639562135832,215,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,215,0,0
+1639562136048,179,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,179,0,0
+1639562136227,163,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,163,0,0
+1639562136390,147,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,147,0,0
+1639562136538,149,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,149,0,0
+1639562136687,147,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-2,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,147,0,0
+1639562134212,2730,未登录刷首页,200,"Number of samples in transaction : 15, number of failing samples : 0",localhost:1099-Thread Group 1-5,,true,,70965,3060,9,9,null,0,5,1
+1639562134213,155,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,155,0,1
+1639562134368,147,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,147,0,0
+1639562134515,189,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,189,0,0
+1639562134705,191,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,191,0,0
+1639562134896,207,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,207,0,0
+1639562135103,224,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,224,0,0
+1639562135327,300,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,300,0,0
+1639562135627,219,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,219,0,0
+1639562135847,182,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,182,0,0
+1639562136030,188,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,187,0,0
+1639562136218,162,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,162,0,0
+1639562136380,140,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,140,0,0
+1639562136520,153,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,153,0,0
+1639562136674,140,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,140,0,0
+1639562136814,133,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,133,0,0
+1639562133418,3534,未登录刷首页,200,"Number of samples in transaction : 20, number of failing samples : 0",localhost:1099-Thread Group 1-1,,true,,94620,4080,9,9,null,0,7,2
+1639562133421,217,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,216,0,2
+1639562133638,140,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,140,0,0
+1639562133778,123,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,3,3,http://localhost:28019/api/v1/index-infos,123,0,0
+1639562133902,133,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,133,0,0
+1639562134035,180,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,180,0,0
+1639562134215,168,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,168,0,0
+1639562134383,144,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,144,0,0
+1639562134528,223,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,223,0,0
+1639562134752,209,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,209,0,0
+1639562134961,226,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,226,0,0
+1639562135187,269,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,269,0,0
+1639562135457,244,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,244,0,0
+1639562135701,186,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,186,0,0
+1639562135887,192,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,192,0,0
+1639562136079,166,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,166,0,0
+1639562136245,147,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,146,0,0
+1639562136392,153,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,153,0,0
+1639562136545,149,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,149,0,0
+1639562136694,123,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,123,0,0
+1639562136817,142,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,142,0,0
+1639562135510,1587,未登录刷首页,200,"Number of samples in transaction : 10, number of failing samples : 0",localhost:1099-Thread Group 1-6,,true,,47310,2250,9,9,null,0,3,1
+1639562135510,233,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,233,0,1
+1639562135744,198,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,198,0,0
+1639562135943,174,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,174,0,0
+1639562136117,171,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,170,0,0
+1639562136288,146,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,146,0,0
+1639562136434,141,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,141,0,0
+1639562136575,141,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,141,0,0
+1639562136716,134,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,134,0,0
+1639562136851,127,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,127,0,0
+1639562136978,122,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-6,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,122,0,0
+1639562135108,2096,未登录刷首页,200,"Number of samples in transaction : 12, number of failing samples : 0",localhost:1099-Thread Group 1-4,,true,,56772,2700,8,8,null,0,3,1
+1639562135108,243,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,243,0,1
+1639562135352,254,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,254,0,0
+1639562135607,255,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,255,0,0
+1639562135862,190,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,190,0,0
+1639562136052,169,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,169,0,0
+1639562136222,151,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,151,0,0
+1639562136373,146,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,146,0,0
+1639562136519,139,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,139,0,0
+1639562136658,145,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,145,0,0
+1639562136803,148,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,147,0,0
+1639562136951,135,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,135,0,0
+1639562137086,121,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-4,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,121,0,0
+1639562134810,2395,未登录刷首页,200,"Number of samples in transaction : 12, number of failing samples : 0",localhost:1099-Thread Group 1-8,,true,,56772,2448,8,8,null,0,4,1
+1639562134811,187,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,187,0,1
+1639562134999,227,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,227,0,0
+1639562135226,285,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,284,0,0
+1639562135511,225,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,225,0,0
+1639562135736,218,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,218,0,0
+1639562135954,175,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,175,0,0
+1639562136129,168,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,168,0,0
+1639562136298,147,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,147,0,0
+1639562136446,374,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,373,0,0
+1639562136820,136,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,136,0,0
+1639562136956,124,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,124,0,0
+1639562137080,129,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,129,0,0
+1639562136789,646,未登录刷首页,200,"Number of samples in transaction : 5, number of failing samples : 0",localhost:1099-Thread Group 1-7,,true,,23655,1125,7,7,null,0,3,1
+1639562136789,137,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-7,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,137,0,1
+1639562136927,138,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-7,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,138,0,0
+1639562137066,116,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-7,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,116,0,0
+1639562137182,113,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-7,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,113,0,0
+1639562137295,142,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-7,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,142,0,0
+1639562136965,725,未登录刷首页,200,"Number of samples in transaction : 6, number of failing samples : 0",localhost:1099-Thread Group 1-1,,true,,28386,1224,6,6,null,0,1,1
+1639562136965,125,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,125,0,1
+1639562137090,118,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,118,0,0
+1639562137209,131,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,131,0,0
+1639562137340,115,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,115,0,0
+1639562137455,128,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,128,0,0
+1639562137583,108,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-1,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,108,0,0
+1639562135010,2696,未登录刷首页,200,"Number of samples in transaction : 17, number of failing samples : 0",localhost:1099-Thread Group 1-9,,true,,80427,3468,5,5,null,0,3,1
+1639562135011,186,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,186,0,1
+1639562135197,253,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,253,0,0
+1639562135450,256,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,256,0,0
+1639562135706,191,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,191,0,0
+1639562135898,186,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,186,0,0
+1639562136084,182,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,182,0,0
+1639562136267,152,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,152,0,0
+1639562136419,153,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,153,0,0
+1639562136572,153,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,153,0,0
+1639562136725,138,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,137,0,0
+1639562136863,119,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,119,0,0
+1639562136982,118,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,118,0,0
+1639562137100,115,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,115,0,0
+1639562137215,120,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,120,0,0
+1639562137335,119,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,119,0,0
+1639562137454,128,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,128,0,0
+1639562137582,127,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,127,0,0
+1639562137713,108,未登录刷首页,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1099-Thread Group 1-9,,true,,4731,204,5,5,null,0,1,0
+1639562137714,108,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-9,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,108,0,0
+1639562137215,845,未登录刷首页,200,"Number of samples in transaction : 7, number of failing samples : 0",localhost:1099-Thread Group 1-8,,true,,33117,1428,4,4,null,0,1,0
+1639562137215,128,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,128,0,0
+1639562137344,130,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,130,0,0
+1639562137474,119,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,119,0,0
+1639562137593,116,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,116,0,0
+1639562137709,116,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,116,0,0
+1639562137825,110,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,110,0,0
+1639562137935,126,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-8,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,126,0,0
+1639562136138,1971,未登录刷首页,200,"Number of samples in transaction : 15, number of failing samples : 0",localhost:1099-Thread Group 1-3,,true,,70965,3375,3,3,null,0,4,0
+1639562136139,163,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,163,0,0
+1639562136302,153,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,153,0,0
+1639562136455,160,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,160,0,0
+1639562136615,150,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,150,0,0
+1639562136766,128,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,128,0,0
+1639562136894,122,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,122,0,0
+1639562137016,113,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,113,0,0
+1639562137129,138,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,138,0,0
+1639562137267,115,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,115,0,0
+1639562137382,129,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,6,6,http://localhost:28019/api/v1/index-infos,129,0,0
+1639562137511,120,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,6,6,http://localhost:28019/api/v1/index-infos,120,0,0
+1639562137631,122,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,122,0,0
+1639562137754,127,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,4,4,http://localhost:28019/api/v1/index-infos,127,0,0
+1639562137881,112,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,4,4,http://localhost:28019/api/v1/index-infos,112,0,0
+1639562137994,119,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-3,text,true,,4731,225,3,3,http://localhost:28019/api/v1/index-infos,119,0,0
+1639562136274,2233,未登录刷首页,200,"Number of samples in transaction : 17, number of failing samples : 0",localhost:1099-Thread Group 1-10,,true,,80427,3468,2,2,null,0,7,0
+1639562136275,150,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,150,0,0
+1639562136425,150,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,150,0,0
+1639562136576,155,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,155,0,0
+1639562136732,150,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,150,0,0
+1639562136882,137,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,137,0,0
+1639562137020,131,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,131,0,0
+1639562137151,130,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,130,0,0
+1639562137282,113,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,112,0,0
+1639562137395,124,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,124,0,0
+1639562137519,121,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,121,0,0
+1639562137640,110,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,110,0,0
+1639562137750,120,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,120,0,0
+1639562137870,133,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,132,0,0
+1639562138003,129,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,129,0,0
+1639562138133,133,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,133,0,0
+1639562138266,125,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,125,0,0
+1639562138392,122,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-10,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,122,0,0
+1639562136952,1643,未登录刷首页,200,"Number of samples in transaction : 13, number of failing samples : 0",localhost:1099-Thread Group 1-5,,true,,61503,2652,1,1,null,0,3,1
+1639562136952,133,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,133,0,1
+1639562137085,138,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,138,0,0
+1639562137224,141,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,141,0,0
+1639562137365,132,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,131,0,0
+1639562137497,132,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,132,0,0
+1639562137629,135,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,135,0,0
+1639562137764,119,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,119,0,0
+1639562137883,124,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,123,0,0
+1639562138007,112,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,3,3,http://localhost:28019/api/v1/index-infos,112,0,0
+1639562138119,124,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,124,0,0
+1639562138243,134,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,134,0,0
+1639562138378,108,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,108,0,0
+1639562138487,111,4.6 Dashboard（浏览首页）,200,,localhost:1099-Thread Group 1-5,text,true,,4731,204,1,1,http://localhost:28019/api/v1/index-infos,111,0,0
+1639562133501,491,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-Thread Group 1-2,,true,,15,0,4,4,null,0,0,472
+1639562133501,491,随机获取商品id,200,OK,localhost:1098-Thread Group 1-2,text,true,,15,0,4,4,null,491,0,472
+1639562133993,191,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-2,,true,,654,600,5,5,null,0,4,1
+1639562133997,81,1. Register（注册）,200,,localhost:1098-Thread Group 1-2,text,true,,312,288,4,4,http://localhost:28019/api/v1/user/register,81,0,1
+1639562134078,110,2. Login（登录）,200,,localhost:1098-Thread Group 1-2,text,true,,342,312,5,5,http://localhost:28019/api/v1/user/login,110,0,0
+1639562134102,398,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-Thread Group 1-5,,true,,15,0,7,7,null,0,0,384
+1639562134102,398,随机获取商品id,200,OK,localhost:1098-Thread Group 1-5,text,true,,15,0,7,7,null,398,0,384
+1639562134501,182,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-5,,true,,654,600,7,7,null,0,15,1
+1639562134516,74,1. Register（注册）,200,,localhost:1098-Thread Group 1-5,text,true,,312,288,7,7,http://localhost:28019/api/v1/user/register,74,0,1
+1639562134590,108,2. Login（登录）,200,,localhost:1098-Thread Group 1-5,text,true,,342,312,7,7,http://localhost:28019/api/v1/user/login,107,0,0
+1639562133701,1048,未登录刷首页,200,"Number of samples in transaction : 7, number of failing samples : 0",localhost:1098-Thread Group 1-3,,true,,33117,1428,8,8,null,0,3,1
+1639562133701,122,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-3,text,true,,4731,204,3,3,http://localhost:28019/api/v1/index-infos,122,0,1
+1639562133824,112,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-3,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,112,0,0
+1639562133937,140,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-3,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,140,0,0
+1639562134077,174,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-3,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,174,0,0
+1639562134252,156,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-3,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,155,0,0
+1639562134408,178,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-3,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,178,0,0
+1639562134587,166,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-3,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,165,0,0
+1639562134304,451,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-Thread Group 1-6,,true,,15,0,8,8,null,0,0,427
+1639562134304,451,随机获取商品id,200,OK,localhost:1098-Thread Group 1-6,text,true,,15,0,8,8,null,451,0,427
+1639562134756,179,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-6,,true,,654,600,9,9,null,0,6,1
+1639562134761,63,1. Register（注册）,200,,localhost:1098-Thread Group 1-6,text,true,,312,288,8,8,http://localhost:28019/api/v1/user/register,63,0,1
+1639562134824,116,2. Login（登录）,200,,localhost:1098-Thread Group 1-6,text,true,,342,312,9,9,http://localhost:28019/api/v1/user/login,116,0,0
+1639562134714,460,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-Thread Group 1-8,,true,,15,0,10,10,null,0,2,441
+1639562134715,460,随机获取商品id,200,OK,localhost:1098-Thread Group 1-8,text,true,,15,0,10,10,null,460,0,441
+1639562134947,274,仅浏览商品详情,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-6,,true,,5458,457,10,10,null,0,0,0
+1639562134947,186,4.5 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,186,0,0
+1639562135133,88,5.5 Good detail（查看商品详情）,200,,localhost:1098-Thread Group 1-6,text,true,,727,232,10,10,http://localhost:28019/api/v1/goods/detail/10730,88,0,0
+1639562134764,474,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-Thread Group 1-3,,true,,15,0,10,10,null,0,1,456
+1639562134765,474,随机获取商品id,200,OK,localhost:1098-Thread Group 1-3,text,true,,15,0,10,10,null,474,0,456
+1639562134913,413,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-Thread Group 1-9,,true,,15,0,10,10,null,0,1,397
+1639562134913,413,随机获取商品id,200,OK,localhost:1098-Thread Group 1-9,text,true,,15,0,10,10,null,413,0,397
+1639562135221,144,Logout（退出登录）,200,,localhost:1098-Thread Group 1-6,text,true,,312,245,10,10,http://localhost:28019/api/v1/user/logout,144,0,0
+1639562135176,211,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-8,,true,,654,600,10,10,null,0,8,0
+1639562135183,75,1. Register（注册）,200,,localhost:1098-Thread Group 1-8,text,true,,312,288,10,10,http://localhost:28019/api/v1/user/register,75,0,0
+1639562135258,136,2. Login（登录）,200,,localhost:1098-Thread Group 1-8,text,true,,342,312,10,10,http://localhost:28019/api/v1/user/login,136,0,0
+1639562135239,233,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-3,,true,,654,600,10,10,null,0,5,1
+1639562135244,109,1. Register（注册）,200,,localhost:1098-Thread Group 1-3,text,true,,312,288,10,10,http://localhost:28019/api/v1/user/register,108,0,1
+1639562135353,124,2. Login（登录）,200,,localhost:1098-Thread Group 1-3,text,true,,342,312,10,10,http://localhost:28019/api/v1/user/login,124,0,0
+1639562135106,429,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-Thread Group 1-10,,true,,15,0,10,10,null,0,1,411
+1639562135106,429,随机获取商品id,200,OK,localhost:1098-Thread Group 1-10,text,true,,15,0,10,10,null,429,0,411
+1639562135327,228,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-9,,true,,654,600,10,10,null,0,6,1
+1639562135332,97,1. Register（注册）,200,,localhost:1098-Thread Group 1-9,text,true,,312,288,10,10,http://localhost:28019/api/v1/user/register,97,0,1
+1639562135430,131,2. Login（登录）,200,,localhost:1098-Thread Group 1-9,text,true,,342,312,10,10,http://localhost:28019/api/v1/user/login,131,0,0
+1639562134191,1432,购买流程,200,"Number of samples in transaction : 10, number of failing samples : 0",localhost:1098-Thread Group 1-2,,true,,8630,2699,10,10,null,0,7,0
+1639562134191,160,3. Add Address（添加默认地址）,200,,localhost:1098-Thread Group 1-2,text,true,,312,418,6,6,http://localhost:28019/api/v1/address,160,0,0
+1639562134351,160,4. Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-2,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,160,0,0
+1639562134512,77,5. Good detail（查看商品详情）,200,,localhost:1098-Thread Group 1-2,text,true,,719,232,7,7,http://localhost:28019/api/v1/goods/detail/10218,77,0,0
+1639562134589,69,6. View shop cart（浏览购物车）,200,,localhost:1098-Thread Group 1-2,text,true,,310,249,7,7,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,69,0,0
+1639562134659,177,7. Add shop cart（添加购物车）,200,,localhost:1098-Thread Group 1-2,text,true,,312,288,8,8,http://localhost:28019/api/v1/shop-cart,176,0,0
+1639562134836,125,8. View shop cart - Again（再次浏览购物车）,200,,localhost:1098-Thread Group 1-2,text,true,,513,249,9,9,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,125,0,0
+1639562134962,75,9. Settle（结账）,200,,localhost:1098-Thread Group 1-2,text,true,,513,246,9,9,http://localhost:28019/api/v1/shop-cart/settle?cartItemIds=441,75,0,0
+1639562135038,89,10. Default Address（默认地址）,200,,localhost:1098-Thread Group 1-2,text,true,,581,229,10,10,http://localhost:28019/api/v1/address/default,89,0,0
+1639562135128,395,11. Save Order（生成订单）,200,,localhost:1098-Thread Group 1-2,text,true,,327,303,10,10,http://localhost:28019/api/v1/saveOrder,395,0,0
+1639562135524,105,12. Payment - Wechat（微信支付）,200,,localhost:1098-Thread Group 1-2,text,true,,312,260,10,10,http://localhost:28019/api/v1/paySuccess?orderNo=16395621353866816&payType=2,105,0,0
+1639562135536,198,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-10,,true,,654,600,10,10,null,0,6,1
+1639562135541,86,1. Register（注册）,200,,localhost:1098-Thread Group 1-10,text,true,,312,288,10,10,http://localhost:28019/api/v1/user/register,86,0,1
+1639562135628,112,2. Login（登录）,200,,localhost:1098-Thread Group 1-10,text,true,,342,312,10,10,http://localhost:28019/api/v1/user/login,112,0,0
+1639562135632,119,Logout（退出登录）,200,,localhost:1098-Thread Group 1-2,text,true,,312,245,10,10,http://localhost:28019/api/v1/user/logout,119,0,0
+1639562135402,350,仅浏览商品详情,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-8,,true,,5442,457,10,10,null,0,1,0
+1639562135402,260,4.5 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,260,0,0
+1639562135663,90,5.5 Good detail（查看商品详情）,200,,localhost:1098-Thread Group 1-8,text,true,,711,232,10,10,http://localhost:28019/api/v1/goods/detail/10700,90,0,0
+1639562135482,276,仅浏览商品详情,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-3,,true,,5386,457,10,10,null,0,0,0
+1639562135482,193,4.5 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-3,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,193,0,0
+1639562135675,83,5.5 Good detail（查看商品详情）,200,,localhost:1098-Thread Group 1-3,text,true,,655,232,10,10,http://localhost:28019/api/v1/goods/detail/10797,83,0,0
+1639562133297,2487,未登录刷首页,200,"Number of samples in transaction : 13, number of failing samples : 0",localhost:1098-Thread Group 1-1,,true,,61503,2652,10,10,null,0,5,2
+1639562133298,148,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,1,1,http://localhost:28019/api/v1/index-infos,148,0,2
+1639562133446,211,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,2,2,http://localhost:28019/api/v1/index-infos,211,0,0
+1639562133657,141,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,3,3,http://localhost:28019/api/v1/index-infos,141,0,0
+1639562133798,132,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,132,0,0
+1639562133931,175,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,175,0,0
+1639562134106,186,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,186,0,0
+1639562134293,177,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,177,0,0
+1639562134470,197,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,197,0,0
+1639562134667,191,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,191,0,0
+1639562134859,198,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,197,0,0
+1639562135057,222,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,222,0,0
+1639562135280,242,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,242,0,0
+1639562135523,267,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,267,0,0
+1639562135754,100,Logout（退出登录）,200,,localhost:1098-Thread Group 1-8,text,true,,312,245,10,10,http://localhost:28019/api/v1/user/logout,100,0,0
+1639562135758,123,Logout（退出登录）,200,,localhost:1098-Thread Group 1-3,text,true,,312,245,10,10,http://localhost:28019/api/v1/user/logout,123,0,0
+1639562135745,283,仅浏览商品详情,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-10,,true,,5455,457,9,9,null,0,0,0
+1639562135745,212,4.5 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,212,0,0
+1639562135957,71,5.5 Good detail（查看商品详情）,200,,localhost:1098-Thread Group 1-10,text,true,,724,232,9,9,http://localhost:28019/api/v1/goods/detail/10725,71,0,0
+1639562136028,99,Logout（退出登录）,200,,localhost:1098-Thread Group 1-10,text,true,,312,245,9,9,http://localhost:28019/api/v1/user/logout,99,0,0
+1639562135797,378,未登录刷首页,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-1,,true,,9462,408,9,9,null,0,1,1
+1639562135798,192,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,192,0,1
+1639562135990,186,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-1,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,186,0,0
+1639562134702,1585,购买流程,200,"Number of samples in transaction : 10, number of failing samples : 0",localhost:1098-Thread Group 1-5,,true,,8519,2699,8,8,null,0,7,0
+1639562134702,189,3. Add Address（添加默认地址）,200,,localhost:1098-Thread Group 1-5,text,true,,312,418,8,8,http://localhost:28019/api/v1/address,189,0,0
+1639562134892,190,4. Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-5,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,190,0,0
+1639562135082,79,5. Good detail（查看商品详情）,200,,localhost:1098-Thread Group 1-5,text,true,,638,232,10,10,http://localhost:28019/api/v1/goods/detail/10112,79,0,0
+1639562135162,82,6. View shop cart（浏览购物车）,200,,localhost:1098-Thread Group 1-5,text,true,,310,249,10,10,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,82,0,0
+1639562135244,214,7. Add shop cart（添加购物车）,200,,localhost:1098-Thread Group 1-5,text,true,,312,288,10,10,http://localhost:28019/api/v1/shop-cart,214,0,0
+1639562135459,162,8. View shop cart - Again（再次浏览购物车）,200,,localhost:1098-Thread Group 1-5,text,true,,498,249,10,10,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,162,0,0
+1639562135621,134,9. Settle（结账）,200,,localhost:1098-Thread Group 1-5,text,true,,498,246,10,10,http://localhost:28019/api/v1/shop-cart/settle?cartItemIds=443,134,0,0
+1639562135756,88,10. Default Address（默认地址）,200,,localhost:1098-Thread Group 1-5,text,true,,581,229,10,10,http://localhost:28019/api/v1/address/default,88,0,0
+1639562135845,384,11. Save Order（生成订单）,200,,localhost:1098-Thread Group 1-5,text,true,,327,303,8,8,http://localhost:28019/api/v1/saveOrder,384,0,0
+1639562136230,63,12. Payment - Wechat（微信支付）,200,,localhost:1098-Thread Group 1-5,text,true,,312,260,8,8,http://localhost:28019/api/v1/paySuccess?orderNo=16395621360865490&payType=2,63,0,0
+1639562136296,88,Logout（退出登录）,200,,localhost:1098-Thread Group 1-5,text,true,,312,245,8,8,http://localhost:28019/api/v1/user/logout,88,0,0
+1639562133896,2529,未登录刷首页,200,"Number of samples in transaction : 13, number of failing samples : 0",localhost:1098-Thread Group 1-4,,true,,61503,2652,8,8,null,0,5,1
+1639562133897,160,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,4,4,http://localhost:28019/api/v1/index-infos,160,0,1
+1639562134058,205,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,5,5,http://localhost:28019/api/v1/index-infos,205,0,0
+1639562134263,171,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,171,0,0
+1639562134435,170,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,170,0,0
+1639562134606,213,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,213,0,0
+1639562134819,194,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,194,0,0
+1639562135013,194,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,194,0,0
+1639562135207,236,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,236,0,0
+1639562135443,245,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,245,0,0
+1639562135688,240,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,240,0,0
+1639562135929,170,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,170,0,0
+1639562136099,179,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,179,0,0
+1639562136278,152,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,152,0,0
+1639562135754,966,未登录刷首页,200,"Number of samples in transaction : 6, number of failing samples : 0",localhost:1098-Thread Group 1-2,,true,,28386,1350,8,8,null,0,3,1
+1639562135755,186,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-2,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,186,0,1
+1639562135941,184,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-2,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,184,0,0
+1639562136125,161,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-2,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,161,0,0
+1639562136287,146,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-2,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,146,0,0
+1639562136434,142,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-2,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,142,0,0
+1639562136576,147,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-2,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,147,0,0
+1639562136386,435,未登录刷首页,200,"Number of samples in transaction : 3, number of failing samples : 0",localhost:1098-Thread Group 1-5,,true,,14193,675,7,7,null,0,1,1
+1639562136386,144,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-5,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,144,0,1
+1639562136530,145,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-5,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,145,0,0
+1639562136676,146,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-5,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,145,0,0
+1639562135564,1340,购买流程,200,"Number of samples in transaction : 10, number of failing samples : 0",localhost:1098-Thread Group 1-9,,true,,8650,2699,6,6,null,0,6,0
+1639562135565,200,3. Add Address（添加默认地址）,200,,localhost:1098-Thread Group 1-9,text,true,,312,418,10,10,http://localhost:28019/api/v1/address,200,0,0
+1639562135766,194,4. Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-9,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,194,0,0
+1639562135961,84,5. Good detail（查看商品详情）,200,,localhost:1098-Thread Group 1-9,text,true,,723,232,9,9,http://localhost:28019/api/v1/goods/detail/10226,84,0,0
+1639562136045,69,6. View shop cart（浏览购物车）,200,,localhost:1098-Thread Group 1-9,text,true,,310,249,9,9,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,69,0,0
+1639562136114,160,7. Add shop cart（添加购物车）,200,,localhost:1098-Thread Group 1-9,text,true,,312,288,8,8,http://localhost:28019/api/v1/shop-cart,160,0,0
+1639562136274,84,8. View shop cart - Again（再次浏览购物车）,200,,localhost:1098-Thread Group 1-9,text,true,,521,249,8,8,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,84,0,0
+1639562136359,78,9. Settle（结账）,200,,localhost:1098-Thread Group 1-9,text,true,,521,246,8,8,http://localhost:28019/api/v1/shop-cart/settle?cartItemIds=445,78,0,0
+1639562136438,65,10. Default Address（默认地址）,200,,localhost:1098-Thread Group 1-9,text,true,,581,229,8,8,http://localhost:28019/api/v1/address/default,65,0,0
+1639562136503,344,11. Save Order（生成订单）,200,,localhost:1098-Thread Group 1-9,text,true,,327,303,6,6,http://localhost:28019/api/v1/saveOrder,344,0,0
+1639562136848,62,12. Payment - Wechat（微信支付）,200,,localhost:1098-Thread Group 1-9,text,true,,312,260,6,6,http://localhost:28019/api/v1/paySuccess?orderNo=16395621367062424&payType=2,62,0,0
+1639562136914,72,Logout（退出登录）,200,,localhost:1098-Thread Group 1-9,text,true,,312,245,6,6,http://localhost:28019/api/v1/user/logout,72,0,0
+1639562134499,2506,未登录刷首页,200,"Number of samples in transaction : 14, number of failing samples : 0",localhost:1098-Thread Group 1-7,,true,,66234,2856,6,6,null,0,8,2
+1639562134500,177,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,177,0,2
+1639562134677,200,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,200,0,0
+1639562134878,208,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,208,0,0
+1639562135087,211,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,211,0,0
+1639562135299,268,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,268,0,0
+1639562135568,225,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,10,10,http://localhost:28019/api/v1/index-infos,224,0,0
+1639562135793,219,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,9,9,http://localhost:28019/api/v1/index-infos,219,0,0
+1639562136012,175,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,175,0,0
+1639562136187,165,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,165,0,0
+1639562136352,142,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,142,0,0
+1639562136494,137,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,137,0,0
+1639562136631,139,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,139,0,0
+1639562136771,123,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,123,0,0
+1639562136895,117,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,117,0,0
+1639562136435,585,未登录刷首页,200,"Number of samples in transaction : 4, number of failing samples : 0",localhost:1098-Thread Group 1-4,,true,,18924,816,6,6,null,0,2,0
+1639562136436,152,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,8,8,http://localhost:28019/api/v1/index-infos,152,0,0
+1639562136589,154,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,7,7,http://localhost:28019/api/v1/index-infos,154,0,0
+1639562136743,147,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,147,0,0
+1639562136890,132,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-4,text,true,,4731,204,6,6,http://localhost:28019/api/v1/index-infos,132,0,0
+1639562136993,379,未登录刷首页,200,"Number of samples in transaction : 3, number of failing samples : 0",localhost:1098-Thread Group 1-9,,true,,14193,675,5,5,null,0,1,1
+1639562136993,132,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-9,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,132,0,1
+1639562137126,125,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-9,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,125,0,0
+1639562137251,122,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-9,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,122,0,0
+1639562135368,2040,未登录刷首页,200,"Number of samples in transaction : 13, number of failing samples : 0",localhost:1098-Thread Group 1-6,,true,,61503,2925,4,4,null,0,2,1
+1639562135368,255,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,255,0,1
+1639562135624,246,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,10,10,http://localhost:28019/api/v1/index-infos,245,0,0
+1639562135870,175,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,175,0,0
+1639562136045,175,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,175,0,0
+1639562136220,151,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,150,0,0
+1639562136371,144,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,144,0,0
+1639562136515,154,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,154,0,0
+1639562136669,133,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,133,0,0
+1639562136802,130,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,6,6,http://localhost:28019/api/v1/index-infos,130,0,0
+1639562136932,118,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,118,0,0
+1639562137050,118,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,118,0,0
+1639562137168,113,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,113,0,0
+1639562137281,128,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-6,text,true,,4731,225,4,4,http://localhost:28019/api/v1/index-infos,128,0,0
+1639562137024,448,随机获取商品ID,200,"Number of samples in transaction : 1, number of failing samples : 0",localhost:1098-Thread Group 1-7,,true,,15,0,3,3,null,0,1,427
+1639562137024,448,随机获取商品id,200,OK,localhost:1098-Thread Group 1-7,text,true,,15,0,3,3,null,448,0,427
+1639562137473,115,注册登录,200,"Number of samples in transaction : 2, number of failing samples : 0",localhost:1098-Thread Group 1-7,,true,,654,600,3,3,null,0,6,1
+1639562137479,50,1. Register（注册）,200,,localhost:1098-Thread Group 1-7,text,true,,312,288,3,3,http://localhost:28019/api/v1/user/register,49,0,1
+1639562137529,65,2. Login（登录）,200,,localhost:1098-Thread Group 1-7,text,true,,342,312,3,3,http://localhost:28019/api/v1/user/login,65,0,0
+1639562136131,1627,未登录刷首页,200,"Number of samples in transaction : 12, number of failing samples : 0",localhost:1098-Thread Group 1-10,,true,,56772,2700,3,3,null,0,2,1
+1639562136131,170,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,169,0,1
+1639562136301,149,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,149,0,0
+1639562136450,155,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,155,0,0
+1639562136605,144,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,144,0,0
+1639562136750,134,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,6,6,http://localhost:28019/api/v1/index-infos,134,0,0
+1639562136884,139,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,6,6,http://localhost:28019/api/v1/index-infos,139,0,0
+1639562137023,128,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,128,0,0
+1639562137151,136,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,136,0,0
+1639562137288,128,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,3,3,http://localhost:28019/api/v1/index-infos,128,0,0
+1639562137416,118,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,3,3,http://localhost:28019/api/v1/index-infos,118,0,0
+1639562137534,111,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,3,3,http://localhost:28019/api/v1/index-infos,111,0,0
+1639562137645,115,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-10,text,true,,4731,225,3,3,http://localhost:28019/api/v1/index-infos,115,0,0
+1639562135856,2047,未登录刷首页,200,"Number of samples in transaction : 15, number of failing samples : 0",localhost:1098-Thread Group 1-8,,true,,70965,3375,2,2,null,0,3,0
+1639562135857,190,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,9,9,http://localhost:28019/api/v1/index-infos,190,0,0
+1639562136047,180,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,180,0,0
+1639562136228,145,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,145,0,0
+1639562136374,155,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,155,0,0
+1639562136529,155,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,8,8,http://localhost:28019/api/v1/index-infos,155,0,0
+1639562136684,140,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,7,7,http://localhost:28019/api/v1/index-infos,139,0,0
+1639562136824,121,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,6,6,http://localhost:28019/api/v1/index-infos,121,0,0
+1639562136945,114,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,114,0,0
+1639562137059,113,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,112,0,0
+1639562137172,111,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,5,5,http://localhost:28019/api/v1/index-infos,111,0,0
+1639562137283,128,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,4,4,http://localhost:28019/api/v1/index-infos,128,0,0
+1639562137411,122,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,3,3,http://localhost:28019/api/v1/index-infos,122,0,0
+1639562137533,124,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,3,3,http://localhost:28019/api/v1/index-infos,124,0,0
+1639562137657,118,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,2,2,http://localhost:28019/api/v1/index-infos,118,0,0
+1639562137775,131,4.6 Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-8,text,true,,4731,225,2,2,http://localhost:28019/api/v1/index-infos,131,0,0
+1639562137597,969,购买流程,200,"Number of samples in transaction : 10, number of failing samples : 0",localhost:1098-Thread Group 1-7,,true,,8493,2699,1,1,null,0,4,0
+1639562137597,134,3. Add Address（添加默认地址）,200,,localhost:1098-Thread Group 1-7,text,true,,312,418,3,3,http://localhost:28019/api/v1/address,133,0,0
+1639562137731,118,4. Dashboard（浏览首页）,200,,localhost:1098-Thread Group 1-7,text,true,,4731,225,2,2,http://localhost:28019/api/v1/index-infos,118,0,0
+1639562137849,48,5. Good detail（查看商品详情）,200,,localhost:1098-Thread Group 1-7,text,true,,630,232,2,2,http://localhost:28019/api/v1/goods/detail/10075,48,0,0
+1639562137897,49,6. View shop cart（浏览购物车）,200,,localhost:1098-Thread Group 1-7,text,true,,310,249,1,1,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,49,0,0
+1639562137946,106,7. Add shop cart（添加购物车）,200,,localhost:1098-Thread Group 1-7,text,true,,312,288,1,1,http://localhost:28019/api/v1/shop-cart,106,0,0
+1639562138053,62,8. View shop cart - Again（再次浏览购物车）,200,,localhost:1098-Thread Group 1-7,text,true,,489,249,1,1,http://localhost:28019/api/v1/shop-cart?pageNumber=1&pageNumber=1,62,0,0
+1639562138116,70,9. Settle（结账）,200,,localhost:1098-Thread Group 1-7,text,true,,489,246,1,1,http://localhost:28019/api/v1/shop-cart/settle?cartItemIds=446,70,0,0
+1639562138187,53,10. Default Address（默认地址）,200,,localhost:1098-Thread Group 1-7,text,true,,581,229,1,1,http://localhost:28019/api/v1/address/default,52,0,0
+1639562138240,275,11. Save Order（生成订单）,200,,localhost:1098-Thread Group 1-7,text,true,,327,303,1,1,http://localhost:28019/api/v1/saveOrder,275,0,0
+1639562138516,54,12. Payment - Wechat（微信支付）,200,,localhost:1098-Thread Group 1-7,text,true,,312,260,1,1,http://localhost:28019/api/v1/paySuccess?orderNo=16395621384009096&payType=2,54,0,0
+1639562138574,110,Logout（退出登录）,200,,localhost:1098-Thread Group 1-7,text,true,,312,245,1,1,http://localhost:28019/api/v1/user/logout,110,0,0
